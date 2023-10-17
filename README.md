@@ -30,10 +30,14 @@ Tool to create a pentest environment with useful sub directory structure and not
 
 ## install
 `git clone https://github.com/r0lh/penprep`
+
 `cd penprep`
+
 `make build`
+
 `make install`
 (installed in your golang-environment - check, if you have this directory correctly in your $PATH and rehashed)
+
 `penprep`
 
 ## usage
