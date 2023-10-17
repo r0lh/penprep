@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"io/fs"
 	"log"
 	"os"
@@ -63,5 +64,7 @@ func main() {
 	for _, f := range files {
 		createFile(f)
 	}
+
+	fmt.Println("[!] done.")
 
 }
