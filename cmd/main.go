@@ -30,6 +30,7 @@ func main() {
 	directories := []string{
 		"pentest",
 		"pentest/external",
+		"pentest/external/scans",
 		"pentest/external/loot",
 		"pentest/external/exploits",
 		"pentest/external/downloads",
@@ -37,8 +38,10 @@ func main() {
 		"pentest/external/tmp",
 		"pentest/external/pub",
 		"pentest/internal",
+		"pentest/internal/scans",
 		"pentest/internal/loot",
 		"pentest/internal/loot/hashdumps",
+		"pentest/internal/loot/screenshots/",
 		"pentest/internal/exploits",
 		"pentest/internal/downloads",
 		"pentest/internal/tools",

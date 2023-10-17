@@ -12,6 +12,7 @@ Tool to create a pentest environment with useful sub directory structure and not
     │   │   └── credentials.txt // credentials founded
     │   ├── notes.txt // notes for external pentest
     │   ├── pub // directory to present for download
+    │   ├── scans // portscans 
     │   ├── tmp // temporary garbage
     │   └── tools // downloaded tools for the pentest 
     └── internal // for internal pentests
@@ -22,6 +23,7 @@ Tool to create a pentest environment with useful sub directory structure and not
         │   └── hashdumps // for saved hashdumps 
         ├── notes.txt // notes for internal pentest
         ├── pub
+        ├── scans // portscans 
         ├── tmp
         └── tools
 ```
