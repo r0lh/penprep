@@ -27,7 +27,7 @@ Tool to create a pentest environment with useful sub directory structure and not
 ```
 
 ## install
-`go install github.com/r0lh/penprep`
+`go install github.com/r0lh/penprep/cmd@latest`
 
 (installed in your golang-environment - check, if you have this directory correctly in your $PATH)
 
