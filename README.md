@@ -37,12 +37,13 @@ Tool to create a pentest environment with useful sub directory structure and not
         └── tools
 ```
 
+## Prerequisites
+Install Go on your system. Follow the official [Go Docs](https://golang.org/doc/install) for your platform.
+
 ## install
 `git clone https://github.com/r0lh/penprep`
 
-`cd penprep`
-
-`make build`
+`cd penprep && make build`
 
 `make install`
 (installed in your golang-environment - check, if you have this directory correctly in your $PATH and rehashed)
