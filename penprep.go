@@ -17,7 +17,7 @@ func checkError(err error) {
 }
 
 func createDirectory(d string) {
-	err := os.Mkdir(d, filemode)
+	err := os.MkdirAll(d, filemode)
 	checkError(err)
 }
 
