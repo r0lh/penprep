@@ -7,6 +7,8 @@ import (
 	"os"
 )
 
+const VERSION = "v1.0.3"
+
 // set filemask
 var filemode fs.FileMode = 0750
 
