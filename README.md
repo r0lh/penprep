@@ -47,10 +47,15 @@ Tool to create a pentest environment with useful sub directory structure and not
 `make install`
 (installed in your golang-environment - check, if you have this directory correctly in your $PATH and rehashed)
 
-`penprep`
+OR
+
+`go install github.com/r0lh/penprep@latest`
+(installed in your golang-environment - check, if you have this directory correctly in your $PATH and rehashed)
 
 ## usage
 
-`$ penprep`
+`penprep`
 
+OR 
 
+`~/go/bin/penprep`
