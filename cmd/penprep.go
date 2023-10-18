@@ -31,17 +31,21 @@ func main() {
 	directories := []string{
 		"pentest",
 		"pentest/external",
-		"pentest/external/scans",
-		"pentest/external/loot",
+		"pentest/external/scans/nmap",
+		"pentest/external/scans/other",
+		"pentest/external/loot/screenshots",
 		"pentest/external/exploits",
 		"pentest/external/downloads",
 		"pentest/external/tools",
 		"pentest/external/tmp",
 		"pentest/external/pub",
 		"pentest/internal",
-		"pentest/internal/scans",
+		"pentest/internal/scans/nmap",
+		"pentest/internal/scans/other",
 		"pentest/internal/loot",
 		"pentest/internal/loot/hashdumps",
+		"pentest/internal/loot/tcpdump",
+		"pentest/internal/loot/bloodhound",
 		"pentest/internal/loot/screenshots/",
 		"pentest/internal/exploits",
 		"pentest/internal/downloads",
@@ -65,6 +69,6 @@ func main() {
 		createFile(f)
 	}
 
-	fmt.Println("[!] done.")
+	fmt.Println("[+] done.")
 
 }

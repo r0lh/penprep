@@ -10,9 +10,12 @@ Tool to create a pentest environment with useful sub directory structure and not
     │   ├── exploits // successfully used exploits
     │   ├── loot // files and artefacts from pentest objects
     │   │   └── credentials.txt // credentials founded
+    │   │   └── screenshots // saved screenshots, e.g. aquatone
     │   ├── notes.txt // notes for external pentest
     │   ├── pub // directory to present for download
-    │   ├── scans // portscans 
+    │   ├── scans // scan files
+    │   │   └── nmap // nmap output data
+    │   │   └── other // other scan data, e.g. gobuster
     │   ├── tmp // temporary garbage
     │   └── tools // downloaded tools for the pentest 
     └── internal // for internal pentests
@@ -20,10 +23,16 @@ Tool to create a pentest environment with useful sub directory structure and not
         ├── exploits
         ├── loot
         │   ├── credentials.txt
-        │   └── hashdumps // for saved hashdumps 
+        │   ├── hashdumps // for saved hashdumps 
+        │   ├── tcpdumps // for saved tcpdumps 
+        │   ├── bloodhound // for bloodhound data
+        │   ├── tcpdumps // for saved tcpdumps 
+        │   └── screenshots // saved screenshots, e.g. aquatone
         ├── notes.txt // notes for internal pentest
         ├── pub
-        ├── scans // portscans 
+        ├── scans // scan files
+        │   └── nmap // nmap output data
+        │   └── other // other scan data, e.g. gobuster
         ├── tmp
         └── tools
 ```
