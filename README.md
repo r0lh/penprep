@@ -50,7 +50,7 @@ Install Go on your system. Follow the official [Go Docs](https://golang.org/doc/
 
 OR
 
-`go install github.com/r0lh/penprep@latest`
+`go install github.com/r0lh/penprep@v1.0.4`
 (installed in your golang-environment - check, if you have this directory correctly in your $PATH and rehashed)
 
 ## usage
