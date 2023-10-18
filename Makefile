@@ -1,4 +1,4 @@
-MAIN_PACKAGE_PATH := ./cmd/penprep.go
+MAIN_PACKAGE_PATH := ./penprep.go
 BINARY_NAME := penprep
 
 ## build: build the application
@@ -14,4 +14,4 @@ run:
 ## install: install the application
 .PHONY: install
 install: 
-	cp /tmp/bin/${BINARY_NAME} ~/go/bin/
+	cp /tmp/bin/${BINARY_NAME} ${HOME}/go/bin/
